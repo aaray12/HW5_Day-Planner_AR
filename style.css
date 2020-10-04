@@ -2,8 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: darkgreen;
 }
-
 textarea{
   background: transparent;
   border: none;
@@ -15,8 +15,8 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: blue;
+  color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -69,6 +69,26 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-#myRow {
-  background-color: #000000;
+#myRows{
+  width: 750px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 50px;
+}
+form{
+  background-color: white;
+  width: 750px;
+  margin: auto;
+}
+.row-style{
+ height: 75px;
+ margin: 5px;
+ font-size: 15px;
+
+}
+.time-style{
+padding-top: 0px;
+margin: auto;
+font-size: 13px;
+  
 }
