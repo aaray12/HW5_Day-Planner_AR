@@ -107,8 +107,9 @@ $("#17").on("click", function (event){
 }
 // set color switch on rows
 function getColor(){
+    //get current hour
     var currentHour = moment().format("h");
-    console.log(moment().format("h"))
+    //set for loop to compare current hour w/ each row and set appropriate color
     for (i = 9; i < 18; i++){
         if (i> currentHour){
         $("#-"+i).attr("style", "background-color: lightgreen")
@@ -118,6 +119,6 @@ function getColor(){
     }
     }
 }
-    
+//run function to set color
 getColor();
 })
