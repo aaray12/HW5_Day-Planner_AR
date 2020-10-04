@@ -107,7 +107,7 @@ $("#17").on("click", function (event){
 }
 // set color switch on rows
 function getColor(){
-    //get current hour
+    //get current hour use capital H to work with military time
     var currentHour = moment().format("H");
     //set for loop to compare current hour w/ each row and set appropriate color
     for (i = 9; i < 18; i++){
