@@ -1,3 +1,4 @@
+$(document).ready(function(){
 //setting date on top of html
 var date = document.querySelector("#currentDay");
 function currentTime()  {
@@ -110,24 +111,13 @@ function getColor(){
     console.log(moment().format("h"))
     for (i = 9; i < 18; i++){
         if (i> currentHour){
-        $("#-"+i).attr("style", "background-color: green")
+        $("#-"+i).attr("style", "background-color: lightgreen")
     }
     else if ( i < currentHour){
-        $("#-"+i).attr("style", "background-color: red")
+        $("#-"+i).attr("style", "background-color: #ffcccb")
     }
     }
 }
     
-// for (i = 9; i < 18; i++){
-//     if (i> currentHour){
-//     $("#"+i).attr("style", "background-color: green")
-// }
-// else if ( i = currentHour){
-//     $("#"+i).attr("style", "background-color: lightgrey")
-// }
-// else if ( i> currentHour){
-//     $("#"+i).attr("style", "background-color: blue")
-// }
-// }
 getColor();
-
+})

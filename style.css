@@ -2,7 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  background-color: darkgreen;
+  background-color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
 }
 textarea{
   background: transparent;
@@ -15,10 +16,10 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: blue;
+  background-color: #efca86;
   color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid wheat;
 }
 
 .description{
@@ -48,12 +49,11 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
   color: white;
 }
 
@@ -74,6 +74,10 @@ textarea{
   margin-bottom: 100px;
   margin-top: 100px;
   padding: 50px;
+  background-color: wheat;
+  color: white;
+  text-shadow: 1px 1px #000000;
+  
 }
 form{
   background-color: white;
@@ -89,6 +93,14 @@ form{
 .time-style{
 padding-top: 0px;
 margin: auto;
-font-size: 13px;
+font-size: 15px;
+font-family: 'Roboto Mono', monospace;
+font-weight: bolder;
   
+}
+button{
+  background-color: lightblue;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+font-weight: bolder;
 }
